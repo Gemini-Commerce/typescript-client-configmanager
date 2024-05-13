@@ -28,6 +28,8 @@ export class ObservableConfigManagerApi {
     }
 
     /**
+     * Bulk set configs
+     * BulkSetConfigs
      * @param body 
      */
     public configManagerBulkSetConfigsWithHttpInfo(body: ConfigmanagerBulkSetConfigsRequest, _options?: Configuration): Observable<HttpInfo<any>> {
@@ -50,6 +52,8 @@ export class ObservableConfigManagerApi {
     }
 
     /**
+     * Bulk set configs
+     * BulkSetConfigs
      * @param body 
      */
     public configManagerBulkSetConfigs(body: ConfigmanagerBulkSetConfigsRequest, _options?: Configuration): Observable<any> {
@@ -57,6 +61,8 @@ export class ObservableConfigManagerApi {
     }
 
     /**
+     * Get a config
+     * GetConfig
      * @param body 
      */
     public configManagerGetConfigWithHttpInfo(body: ConfigmanagerGetConfigRequest, _options?: Configuration): Observable<HttpInfo<ConfigmanagerConfigResponse>> {
@@ -79,6 +85,8 @@ export class ObservableConfigManagerApi {
     }
 
     /**
+     * Get a config
+     * GetConfig
      * @param body 
      */
     public configManagerGetConfig(body: ConfigmanagerGetConfigRequest, _options?: Configuration): Observable<ConfigmanagerConfigResponse> {

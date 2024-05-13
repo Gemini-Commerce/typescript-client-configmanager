@@ -1,5 +1,4 @@
 .gitignore
-.openapi-generator-ignore
 ConfigManagerApi.md
 README.md
 apis/ConfigManagerApi.ts
