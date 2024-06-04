@@ -48,8 +48,6 @@ export class ObjectConfigManagerApi {
     }
 
     /**
-     * Bulk set configs
-     * BulkSetConfigs
      * @param param the request object
      */
     public configManagerBulkSetConfigsWithHttpInfo(param: ConfigManagerApiConfigManagerBulkSetConfigsRequest, options?: Configuration): Promise<HttpInfo<any>> {
@@ -57,8 +55,6 @@ export class ObjectConfigManagerApi {
     }
 
     /**
-     * Bulk set configs
-     * BulkSetConfigs
      * @param param the request object
      */
     public configManagerBulkSetConfigs(param: ConfigManagerApiConfigManagerBulkSetConfigsRequest, options?: Configuration): Promise<any> {
@@ -66,8 +62,6 @@ export class ObjectConfigManagerApi {
     }
 
     /**
-     * Get a config
-     * GetConfig
      * @param param the request object
      */
     public configManagerGetConfigWithHttpInfo(param: ConfigManagerApiConfigManagerGetConfigRequest, options?: Configuration): Promise<HttpInfo<ConfigmanagerConfigResponse>> {
@@ -75,8 +69,6 @@ export class ObjectConfigManagerApi {
     }
 
     /**
-     * Get a config
-     * GetConfig
      * @param param the request object
      */
     public configManagerGetConfig(param: ConfigManagerApiConfigManagerGetConfigRequest, options?: Configuration): Promise<ConfigmanagerConfigResponse> {

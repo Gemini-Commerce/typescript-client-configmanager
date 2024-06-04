@@ -1,18 +1,17 @@
 # .ConfigManagerApi
 
-All URIs are relative to *https://config-manager.api.gogemini.io*
+All URIs are relative to *http://localhost*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**configManagerBulkSetConfigs**](ConfigManagerApi.md#configManagerBulkSetConfigs) | **POST** /configmanager.ConfigManager/BulkSetConfigs | BulkSetConfigs
-[**configManagerGetConfig**](ConfigManagerApi.md#configManagerGetConfig) | **POST** /configmanager.ConfigManager/GetConfig | GetConfig
+[**configManagerBulkSetConfigs**](ConfigManagerApi.md#configManagerBulkSetConfigs) | **POST** /configmanager.ConfigManager/BulkSetConfigs | 
+[**configManagerGetConfig**](ConfigManagerApi.md#configManagerGetConfig) | **POST** /configmanager.ConfigManager/GetConfig | 
 [**configManagerGetTenantIdByCode**](ConfigManagerApi.md#configManagerGetTenantIdByCode) | **POST** /configmanager.ConfigManager/GetTenantIdByCode | 
 
 
 # **configManagerBulkSetConfigs**
 > any configManagerBulkSetConfigs(body)
 
-Bulk set configs
 
 ### Example
 
@@ -57,7 +56,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[standardAuthorization](README.md#standardAuthorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -76,7 +75,6 @@ Name | Type | Description  | Notes
 # **configManagerGetConfig**
 > ConfigmanagerConfigResponse configManagerGetConfig(body)
 
-Get a config
 
 ### Example
 
@@ -116,7 +114,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[standardAuthorization](README.md#standardAuthorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -172,7 +170,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Authorization](README.md#Authorization)
+No authorization required
 
 ### HTTP request headers
 
